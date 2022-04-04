@@ -15,10 +15,9 @@ earned for each customer per month and total.
 
 **1. Clone the application**
 
-   - 
+   - https://github.com/preethamreddyboddu/rewards-calculator
 
-
-**2. Run the app using maven from command line  **
+**2.  Run the app using maven from command line** 
    - mvn spring-boot:run 
 
 
