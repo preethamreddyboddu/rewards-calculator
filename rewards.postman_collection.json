@@ -1,0 +1,70 @@
+{
+	"id": "b29ce52f-3ecf-9f70-c8a4-0134aa817d27",
+	"name": "rewards",
+	"description": "",
+	"order": [
+		"73c2c95c-9e03-c506-e1ce-3cf9f1abca13",
+		"b6f44f36-42b9-c489-9527-90c1c231e3ae"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1648912523539,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "73c2c95c-9e03-c506-e1ce-3cf9f1abca13",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/purchase",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "b29ce52f-3ecf-9f70-c8a4-0134aa817d27",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/purchase",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1648912525032,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"customerId\": 1,\n\t\"description\": \"test\",\n\t\"value\":125,\n\t\"date\":\"2022-04-01\"\n}"
+		},
+		{
+			"id": "b6f44f36-42b9-c489-9527-90c1c231e3ae",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/rewards/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "b29ce52f-3ecf-9f70-c8a4-0134aa817d27",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8080/rewards/1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1648912533529,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
